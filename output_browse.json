@@ -1,0 +1,90 @@
+{
+  "campaign_goal": "browse_abandon",
+  "channel": "SMS",
+  "step_id": "S1",
+  "persona_id": "ingredient_care",
+  "tone_id": "Brand_Default_Friendly",
+  "allowed_slots": [
+    "headline",
+    "body",
+    "cta"
+  ],
+  "candidates": [
+    {
+      "candidate_id": "C1",
+      "variant_tag": "question",
+      "slot_map": {
+        "headline": "고객님, {{ product.name }}가 궁금하신가요?",
+        "body": "{{ product.name }}: 부담 적은 데일리 사용감.",
+        "cta": "상품 다시 보기"
+      },
+      "tags": {
+        "benefit_claim": true,
+        "urgency_level": 0,
+        "length_hint": "short"
+      },
+      "rationale": "고객의 관심을 유도하는 질문형 메시지"
+    },
+    {
+      "candidate_id": "C2",
+      "variant_tag": "direct",
+      "slot_map": {
+        "headline": "고객님, {{ product.name }}는 어떠세요?",
+        "body": "민감한 피부를 위한 진정 효과.",
+        "cta": "자세히 보기"
+      },
+      "tags": {
+        "benefit_claim": false,
+        "urgency_level": 1,
+        "length_hint": "short"
+      },
+      "rationale": "직접적인 언급으로 관심을 환기"
+    },
+    {
+      "candidate_id": "C3",
+      "variant_tag": "empathy",
+      "slot_map": {
+        "headline": "고객님, {{ product.name }}가 기다리고 있어요!",
+        "body": "부담 없는 사용감으로 피부를 진정시켜요.",
+        "cta": "지금 확인하기"
+      },
+      "tags": {
+        "benefit_claim": true,
+        "urgency_level": 2,
+        "length_hint": "short"
+      },
+      "rationale": "감정적으로 다가가는 접근"
+    },
+    {
+      "candidate_id": "C4",
+      "variant_tag": "direct",
+      "slot_map": {
+        "headline": "고객님, {{ product.name }}를 다시 만나보세요!",
+        "body": "민감 피부에 적합한 제품입니다.",
+        "cta": "상품 다시 보기"
+      },
+      "tags": {
+        "benefit_claim": false,
+        "urgency_level": 1,
+        "length_hint": "short"
+      },
+      "rationale": "제품의 특성을 강조한 메시지"
+    },
+    {
+      "candidate_id": "C5",
+      "variant_tag": "question",
+      "slot_map": {
+        "headline": "고객님, {{ product.name }}를 잊으셨나요?",
+        "body": "부담 없이 사용할 수 있는 제품입니다.",
+        "cta": "자세히 알아보기"
+      },
+      "tags": {
+        "benefit_claim": false,
+        "urgency_level": 0,
+        "length_hint": "short"
+      },
+      "rationale": "상기시켜주는 질문형 메시지"
+    }
+  ],
+  "warnings": []
+}

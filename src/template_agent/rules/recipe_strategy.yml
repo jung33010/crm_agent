@@ -1,0 +1,11 @@
+cart_recovery.S1:
+  guideline: "가볍게 리마인드. 부담 낮게."
+  hook_styles: ["direct", "question", "empathy"]
+
+cart_recovery.S2:
+  guideline: "행동 촉구. 과장 없는 긴급감(마감/재고 표현은 조심)."
+  hook_styles: ["direct", "question"]
+
+browse_abandon.S1:
+  guideline: "USP/후기/루틴 제안 중심. 혜택 강요 금지."
+  hook_styles: ["question", "empathy", "direct"]

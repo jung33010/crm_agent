@@ -1,0 +1,18 @@
+SMS:
+  max_chars: 90
+  emoji_max: 1
+  style_notes:
+    - "짧고 직관적으로"
+    - "과장/효능 단정 금지"
+
+KAKAO:
+  max_chars: 180
+  emoji_max: 1
+
+PUSH:
+  max_chars: 60
+  emoji_max: 1
+
+Emali:
+  max_chars: 400
+  emoji_max: 2

@@ -1,0 +1,40 @@
+[
+  {
+    "campaign_goal": "cart_recovery",
+    "channel": "SMS",
+    "step_id": "S1",
+    "persona": { "persona_id": "value_seeker", "traits": ["가성비", "혜택 민감"] },
+    "tone": {
+      "tone_id": "Brand_Default_Friendly",
+      "do": ["짧고 친근하게", "고객님 호칭"],
+      "dont": ["효능 단정", "과장"]
+    },
+    "product": {
+      "name": "수분 크림 50ml",
+      "category": "skincare",
+      "usp_keywords": ["보습", "산뜻"],
+      "url": "https://example.com/p/cream"
+    },
+    "benefit_hint": "첫 구매 10% 쿠폰이 있을 수도 있음(검증 필요)",
+    "constraints": { "max_chars": 90, "emoji_max": 1, "must_not_claim_unverified_benefit": true }
+  },
+  {
+    "campaign_goal": "browse_abandon",
+    "channel": "SMS",
+    "step_id": "S1",
+    "persona": { "persona_id": "ingredient_care", "traits": ["성분", "민감피부"] },
+    "tone": {
+      "tone_id": "Brand_Default_Friendly",
+      "do": ["정중하게", "과하지 않게"],
+      "dont": ["과장", "공포 조장"]
+    },
+    "product": {
+      "name": "진정 토너 200ml",
+      "category": "skincare",
+      "usp_keywords": ["진정", "부담 적음"],
+      "url": "https://example.com/p/toner"
+    },
+    "benefit_hint": null,
+    "constraints": { "max_chars": 90, "emoji_max": 1, "must_not_claim_unverified_benefit": true }
+  }
+]

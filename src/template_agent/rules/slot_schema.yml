@@ -1,0 +1,27 @@
+cart_recovery.SMS:
+  - greeting
+  - product_name
+  - benefit_line
+  - cta
+  - short_link
+
+browse_abandon.SMS:
+  - greeting
+  - product_name
+  - usp_line
+  - cta
+  - short_link
+
+repurchase.SMS:
+  - greeting
+  - product_name
+  - usp_line
+  - cta
+  - short_link
+
+back_in_stock.SMS:
+  - greeting
+  - product_name
+  - usp_line
+  - cta
+  - short_link
