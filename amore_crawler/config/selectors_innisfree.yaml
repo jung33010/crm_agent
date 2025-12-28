@@ -1,0 +1,19 @@
+pages:
+  listing:
+    product_card: "div.prd-card, li.prd-item"
+    product_link: "a[href*='/product/detail']"
+    next_button: "a.btn-next, button.btn-next"
+
+  detail:
+    name: "h2.prd-name, h1.prd-name"
+    brand: "a.brand-name, span.brand"
+    price: ".price .origin, .prd-price .origin"
+    sale_price: ".price .sale, .prd-price .sale"
+    capacity: ".prd-capacity, .option-capacity"
+    description: ".prd-desc, .detail-desc"
+    image:
+      main: "img.prd-img, .prd-thumb img"
+      gallery: ".prd-gallery img, .swiper-slide img"
+
+parsers:
+  onlineProdSn_query_key: "onlineProdSn"

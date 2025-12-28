@@ -1,0 +1,31 @@
+brand: innisfree
+brand_sn: 204
+
+concerns:
+  WHITENING_UV:
+    name: "미백/자외선차단"
+    url: "https://www.amoremall.com/kr/ko/display/brand/detail/all?brandSn=204&skinConcernTypes=WHITENING_UV"
+
+  WRINKLE_ELASTICITY:
+    name: "주름/탄력"
+    url: "https://www.amoremall.com/kr/ko/display/brand/detail/all?brandSn=204&skinConcernTypes=WRINKLE_ELASTICITY"
+
+  NUTRITION_MOISTURE:
+    name: "영양/보습"
+    url: "https://www.amoremall.com/kr/ko/display/brand/detail/all?brandSn=204&skinConcernTypes=NUTRITION_MOISTURE"
+
+  BLACKHEAD_PORE_SEBUM:
+    name: "블랙헤드/모공/피지"
+    url: "https://www.amoremall.com/kr/ko/display/brand/detail/all?brandSn=204&skinConcernTypes=BLACKHEAD_PORE_SEBUM"
+
+  SKIN_SOOTHING:
+    name: "피부진정"
+    url: "https://www.amoremall.com/kr/ko/display/brand/detail/all?brandSn=204&skinConcernTypes=SKIN_SOOTHING"
+
+  ACNE:
+    name: "여드름 피부용"
+    url: "https://www.amoremall.com/kr/ko/display/brand/detail/all?brandSn=204&skinConcernTypes=ACNE"
+
+  ATOPY:
+    name: "아토피 피부용"
+    url: "https://www.amoremall.com/kr/ko/display/brand/detail/all?brandSn=204&skinConcernTypes=ATOPY"

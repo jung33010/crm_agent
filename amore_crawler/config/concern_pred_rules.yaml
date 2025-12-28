@@ -1,0 +1,94 @@
+# key: concern_type (공식 concern_type과 최대한 맞춰주세요)
+# name: UI 표기용
+# triggers: 키워드에 이 문자열이 포함되면 매칭(부분일치)
+# weight: 가중치(선택, 기본 1.0)
+
+WHITENING_UV:
+  name: "미백/자외선차단"
+  triggers:
+    - 미백
+    - 브라이트닝
+    - 잡티
+    - 기미
+    - 톤업
+    - 비타민c
+    - 나이아신아마이드
+    - 자외선
+    - uv
+    - 선크림
+    - 선케어
+  weight: 1.0
+
+WRINKLE_ELASTICITY:
+  name: "주름/탄력"
+  triggers:
+    - 주름
+    - 탄력
+    - 안티에이징
+    - 리프팅
+    - 레티놀
+    - 아데노신
+    - 콜라겐
+    - 펩타이드
+  weight: 1.0
+
+NUTRITION_MOISTURE:
+  name: "영양/보습"
+  triggers:
+    - 보습
+    - 수분
+    - 영양
+    - 히알루론산
+    - 세라마이드
+    - 글리세린
+    - 판테놀
+  weight: 1.0
+
+BLACKHEAD_PORE_SEBUM:
+  name: "블랙헤드/모공/피지"
+  triggers:
+    - 모공
+    - 피지
+    - 블랙헤드
+    - 각질
+    - bba
+    - bha
+    - aha
+    - 살리실산
+    - 클레이
+    - 피지조절
+  weight: 1.0
+
+SKIN_SOOTHING:
+  name: "피부진정"
+  triggers:
+    - 진정
+    - 시카
+    - 병풀
+    - 센텔라
+    - 알란토인
+    - 민감
+    - 저자극
+  weight: 1.0
+
+ACNE:
+  name: "여드름 피부용"
+  triggers:
+    - 여드름
+    - 트러블
+    - acne
+    - 티트리
+    - 살리실산
+    - 논코메도제닉
+  weight: 1.0
+
+ATOPY:
+  name: "아토피 피부용"
+  triggers:
+    - 아토피
+    - 가려움
+    - 장벽
+    - 배리어
+    - 세라마이드
+    - 고보습
+  weight: 1.0

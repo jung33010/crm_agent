@@ -1,0 +1,49 @@
+brand: innisfree
+brand_sn: 204
+
+brand_entry:
+  brand_sns: 204
+  listing_url: "https://www.amoremall.com/kr/ko/display/brand/detail/all?brandSn=204&frontNo=97"
+  category_sns_all:
+    - 97
+    - 126
+    - 172
+    - 257
+    - 256
+    - 251
+    - 171
+    - 173
+    - 127
+    - 174
+    - 175
+    - 176
+    - 177
+    - 178
+    - 179
+    - 128
+    - 180
+    - 181
+    - 182
+    - 268
+    - 129
+    - 258
+    - 259
+    - 260
+    - 130
+    - 381
+
+run:
+  api_limit: 40
+  api_sort_type: "Bestselling"
+  sleep_sec_min: 0.1
+  sleep_sec_max: 0.2
+
+x_headers:
+  cartnonmemberkey: "f376d468-bf2c-4d88-9d55-3c5f8bdd5b29"
+
+
+sample:
+  enabled: false
+  n_detail_urls: 2        # 전체 상세 URL 중 2개만
+  method: "head"          # head|random
+  seed: 42
